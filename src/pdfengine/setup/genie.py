@@ -61,7 +61,7 @@ class Genie(object):
 
 
 if __name__ == "__main__":
-    a="sk-proj-q8LIi1ONH9ZFfjC4ANWLT3BlbkFJWYG7sprgE8S3LzWxlmjx"
+    a="YOUR_OPENAI_KEY"
     m="gpt-3.5-turbo"
     G = Genie(open_api_key_=a, model_=m, file_path="/Users/devika/Desktop/pdfgenie/src/pdfengine/loader/test.pdf")
     G.chat_with_the_genie()
