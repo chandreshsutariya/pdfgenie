@@ -171,7 +171,7 @@ if __name__ == "__main__":
     # document = processor.process_pdf()
     # for s in document:
     #     print(s)
-    pdf_path = '/Users/devika/Desktop/pdfgenie/src/pdfengine/setup/test.pdf'
+    pdf_path = 'FILE_PATH'
     processor = PDFMarkdownProcessor(pdf_path)
     documents = processor.get_documents()
     for doc in documents:
